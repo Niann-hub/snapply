@@ -1,0 +1,193 @@
+@media screen and  (max-width:1200px){
+    header{
+        height: 300px;
+    }
+    .h1{
+        font-size: 10px;
+    }
+    .singUp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+   footer{
+        background-color: #E6D7C0;
+        display: grid!important;
+        width: 100%;
+        height:auto!important;
+        grid-template-rows: auto auto auto!important;
+        grid-template-columns: 1fr!important;
+    }
+    .fot1par{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .fot2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .fot3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foodpics{
+      width: 200px;
+    }
+    .myCa h1{
+        font-size: 20px;
+    }
+   
+    header{
+        height: 200px !important;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .picc1{
+        width: 700px;
+    }
+
+
+   .rewi{
+    width:70% ;
+    justify-content: space-between;
+
+   }
+   .dateand{
+    width: 70%;
+    justify-content: space-between;
+  
+}
+.tf{
+    margin-right:120px ;
+    width: 800px;
+    color: #402D12;
+}
+.tfh1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    list-style-type: none;
+    color: #402D12;
+}
+a{
+    list-style-type: none;
+    color: #402D12;
+}
+.tfp{
+    font-family: "Roboto", sans-serif;
+   font-size: 20px;
+ 
+}
+.longLine{
+    width: 920px;
+    height: 1px;
+    background-color: #402D12;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+}
+@media screen and  (max-width:800px){
+header{
+    flex-wrap: wrap      ;
+     width: 100%;
+     font-size: 10px;
+     display:flex ;
+     position: relative;
+     height: 300px;
+     top: 0;
+     height: 200px;
+ }
+ .h1{
+    font-size: 20px;
+}
+footer{
+    background-color: #E6D7C0;
+    display: grid ;
+    width: 100%;
+    height: 300vh ;
+    grid-template-rows: auto ;
+}
+.fot1par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fot3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .h1{
+    font-size: 20px;
+}
+
+#chek:checked ~ nav{
+    display: flex;
+    position: fixed;
+    background-color: #235b47;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+   
+    
+    left: 0;
+    justify-content: center;
+    align-items: center;
+   
+}
+.picc1{
+    width: 470px;
+}
+.dateand{
+    width: 700%;
+    justify-content: space-between;
+ 
+}
+.tf{
+   margin-left: 0px !important;
+    width: 800px !important;
+    color: #402D12;
+}
+.tfh1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    list-style-type: none;
+    color: #402D12;
+}
+a{
+    list-style-type: none;
+    color: #402D12;
+}
+.tfp{
+    font-family: "Roboto", sans-serif;
+   font-size: 20px;
+ 
+}
+.longLine{
+    width: 920px;
+    height: 1px;
+    background-color: #402D12;
+    display: flex;
+    margin-top: 20px;
+}
+
+}

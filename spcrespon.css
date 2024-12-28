@@ -1,0 +1,173 @@
+@media screen and  (max-width:1200px){
+    header{
+        height: 300px;
+    }
+    .h1{
+        font-size: 10px;
+    }
+    .singUp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+   footer{
+        background-color: #E6D7C0;
+        display: grid!important;
+        width: 100%;
+        height:auto!important;
+        grid-template-rows: auto auto auto!important;
+        grid-template-columns: 1fr!important;
+    }
+    .fot1par{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .fot2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .fot3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foodpics{
+      width: 200px;
+    }
+    .myCa h1{
+        font-size: 20px;
+    }
+    .cards1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        height: 200px !important;
+    }
+    .h1{
+        font-size: 10px;
+    }
+   .picsf1mom{
+       width: 100%;
+   }
+
+   .pic{
+    width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.textss1{
+    width: 100%;
+    flex-direction: row;
+
+    display: flex;
+}
+
+
+
+.pictu{
+ 
+    width: 50px;
+  
+    
+}
+.picchild{
+    
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otherrc{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    display: flex;
+}
+
+.pictu{
+width: 500px !important;
+}
+.rewi{
+    width: 50%;
+    justify-content: space-between;
+}
+}
+@media screen and  (max-width:800px){
+header{
+    flex-wrap: wrap      ;
+     width: 100%;
+     font-size: 10px;
+     display:flex ;
+     position: relative;
+     height: 300px;
+     top: 0;
+     height: 200px;
+ }
+ .h1{
+    font-size: 20px;
+}
+footer{
+    background-color: #E6D7C0;
+    display: grid !important;
+    width: 100% !important;
+    height: 300vh !important;
+    grid-template-rows: auto !important;
+}
+.fot1par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fot3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .h1{
+    font-size: 20px;
+}
+
+#chek:checked ~ nav{
+    display: flex;
+    position: fixed;
+    background-color: #235b47;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+   
+    
+    left: 0;
+    justify-content: center;
+    align-items: center;
+   
+}
+.pictu{
+    width: 400px !important;
+    }
+}

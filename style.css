@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    
+    display: flex;
+
+    width: 100%;
+    height: 80px;
+    background-color:  #402d12;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+    
+    position: fixed;
+}
+.search1{
+    display: flex;
+  align-items: center;
+  position: relative;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.sea{
+   
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    padding: 5px 0;
+    background-color: #402D12;
+    
+   
+}
+.serchi{
+    font-size: 15px; 
+    font-weight: bold;
+    color: white; 
+    margin-left: 10px;
+   
+}
+.burger{
+    display: flex;
+   
+   
+    flex-direction: column;
+    gap: 6px;
+
+}
+.line{
+    width: 60px;
+    height: 6px;
+    background-color: white;
+}
+.h1{
+   
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    
+    
+    
+
+}
+
+nav {
+    list-style-type: none;
+    flex-direction: column;
+    background-color: #235b47;
+    display: none;
+   
+}
+
+#chek {
+    display: none;
+}
+
+#chek:checked ~ nav{
+    display: flex;
+    position: absolute;
+    background-color: #235b47;
+    top: 80px;
+    height: 90vh;
+    width: 500px;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+   position: fixed;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+    color: white;
+    gap: 20px;
+
+}
+li{
+    color: white;
+    font-size: 60px;
+}
+.img1{
+  background-repeat: no-repeat;
+  
+  width: 50%;
+  height: 100vh;
+
+  background-size: cover;
+    background-image: url(https://static.wixstatic.com/media/c837a6_12a1e75a69794715812e2d17d76d42dc~mv2.jpg/v1/fill/w_998,h_888,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_12a1e75a69794715812e2d17d76d42dc~mv2.jpg);
+}
+.img2{
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.f1{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+}
+.cir{
+    color: #402d12;
+
+}
+.de{
+    color: #402d12;
+    font-size: 40px;
+    display: flex;
+    
+}
+.in{
+    color: #402d12;
+    font-size: 40px;
+    display: flex;
+    margin-right: 350px;
+    
+}
+.headd{
+    display: flex;
+
+    width: 100%;
+    height: 120px;
+    background-color: #F9A528;
+    justify-content:center;
+    padding: 0px 50px;
+    align-items: center;
+    gap: 20px
+    ;
+    color: #235B47;
+
+
+}
+
+.child{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.gl{
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+.fr{
+    font-size: 40px;
+ 
+    font-style: italic;
+}
+.l{
+    size: 1px;
+
+}
+.a{
+    color: #235B47;
+}
+.food1{
+    height: 100vh;
+    width: 100%;
+    background-color: #F3F1E4;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 0px 50px;
+    align-items: center;
+    gap: 20px
+}
+.dish{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+.span1{
+    font-size: 35px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #402D12;
+}
+.cards1{
+    display: flex ;
+    flex-direction: row;
+    gap: 30px;
+    color: #402D12;
+    
+}
+.cardss{
+   
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    list-style-type: none;
+    color: #402D12;
+    gap: 15px;
+}
+
+.card-text{
+    
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    
+}
+.aboutMe{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #E6D7C0;
+    flex-direction: row;
+    
+   
+ 
+}
+.abtm{
+    width: 50%;
+    height: 60vh;
+   display: flex;
+   flex-direction: column;
+    gap: 20px;
+    color: #402D12;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+    
+}
+.forFd{
+    display: flex;
+   
+    
+}
+.meetm{
+    font-size: 60px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    
+    
+}
+.metm{
+    font-size: 60px;
+    font-style: italic;
+    
+}
+.name1{
+ 
+    gap: 10px;
+    display: flex;
+}
+.paragr{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+    width: 500px;
+    
+    
+}
+.myImg{
+   
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-image: url(https://static.wixstatic.com/media/11062b_a9413c0bbf9b4b3abfdb95e825ae38ba~mv2.jpg/v1/fill/w_770,h_945,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a9413c0bbf9b4b3abfdb95e825ae38ba~mv2.jpg);
+  
+ 
+}
+.singUp{
+    width: 100%;
+    height: 200px;
+    background-color: #F9A528;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.sing{
+    width: 65%;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: initial;
+    color: #402D12;
+    
+  
+
+}
+.text{
+    width: 35%;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kanit", sans-serif;
+ 
+    color: #402D12;
+    font-weight: 400;
+    margin-left: 200px;
+    font-size: 20px;
+    
+
+    
+}
+.email{
+    height: 40px;
+    width: 600px;
+    background-color: #F3F1E4;
+
+   
+}
+.inp{
+display: flex;
+flex-direction: row;
+   
+    color: #402D12;
+   
+
+}
+.inpparent{
+    display: flex;
+    flex-direction: row;
+    width: 270px;
+    gap: 10px;
+}
+.btn1{
+    width: 330px;
+    height: 40px;
+    background-color: #402D12;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+   
+    
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+   
+   
+
+}
+
+.btn1:hover {
+   
+    background-color:#402d129a;
+   
+  }
+.inpP{
+    padding-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #402d12;
+ 
+  
+}
+.weekl{
+    width: 100%;
+    height:80vh ;
+    background-color: #F3F1E4;
+    display: flex;
+}
+.gozinayi{
+    width: 50%;
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://static.wixstatic.com/media/11062b_56a7be6c373e4b5e8795869305c78591~mv2.jpg/v1/fill/w_490,h_641,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_56a7be6c373e4b5e8795869305c78591~mv2.jpg);
+}
+.wek{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   justify-content: space-around;
+
+}
+.tm{
+    font-size: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    display: flex;
+    
+    
+    
+}
+.etm{
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    
+}
+.ettm{
+    display: flex;
+    gap: 20px;
+   color: #235B47;
+}
+.dat{
+   font-style: normal;
+   color: #402D12;
+  
+ 
+}
+.datt{
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    font-size: x-small;
+}
+.tp5{
+    width: 400px;
+    height: 200px;
+   
+    margin-left: 50px;
+}
+.tp5H{
+    font-size:40px ;
+    color: #402D12;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    list-style-type: none;
+}
+.i1{
+    font-family: "Roboto", sans-serif;
+  
+    color: #402D12;
+    font-size:20px ;
+    font-style: normal;
+    font-weight: 200;
+    
+}
+
+.sn{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+
+}
+.emal{
+    height: 40px;
+    width: 373px;
+   
+    background-color: #F3F1E4;
+
+}
+.inpu{
+    display: flex;
+   flex-direction: row;
+    gap: 10px;
+    color: #402D12;
+}
+.btn2{
+    width: 200px;
+    height: 40px;
+    background-color: #402D12;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    
+    
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+   
+   
+
+}
+.btn2:hover {
+   
+    background-color:#402d129a;
+   
+  }
+.inpPp{
+    padding-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #402d12;
+    font-weight: 120;
+    width: 140px;
+   
+  
+}
+.inmom{
+    width: 150px;;
+    
+}
+
+footer{
+    background-color: #E6D7C0;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fot1{
+    color: #402D12;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: start;
+    gap: 50px;
+  
+
+  
+   
+}
+.sn{
+    gap: 10px;
+}
+.fot2{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    color: #402D12;
+    gap: 40px;
+  
+  
+}
+.fot3{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #402D12;
+   align-items: center;
+    gap: 50px;
+    margin-bottom: 90px;
+
+
+
+}
+.fotf{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+.fotf1{
+    font-size: 20px;
+}
+.fot1par{
+    display: flex;
+    margin: 100px;
+   
+}
+.fotf2{
+    font-style: italic;
+
+    
+}
+.fotf3{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
+.cs{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+}
+.fotp1{
+    font-style: italic;
+    font-size: 30px;
+}
+.fotp2{
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+
+}
+.nl{
+display: flex;
+gap: 30px;
+flex-direction: column;
+
+
+
+}
+.lstndn{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.name2{
+    height: 40px;
+    background-color: #F3F1E4;
+    width: 170px;
+}
+.lastName1{
+    height: 40px;
+    background-color: #F3F1E4;
+    width: 170px;
+
+}
+.dn1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.dln2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.email2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wam{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.writeText{
+    height: 100px;
+    background-color: #F3F1E4;
+    width: 373px;
+}
+.btn3{
+    width: 120px;
+    height: 40px;
+    background-color: #402D12;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-style: italic; 
+   margin-left: 253px;
+}
+

@@ -1,0 +1,328 @@
+@media screen and  (max-width:1000px) {
+
+    .de{
+        color: #402d12;
+        font-size: 32px;
+        display: flex;
+       
+    }
+    .in{
+        color: #402d12;
+        font-size: 32px;
+        display: flex;
+        margin-left:350px;
+        
+        width: 300px;
+       
+    }
+    .f1{
+        width: 300px;
+        height: 300px;
+        margin-top: 100px;
+    }
+    .gl{
+        font-size: 30px;
+    }
+    .fr{
+        font-size: 30px;
+    }
+   
+    .aboutMe{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        background-color: #E6D7C0;
+        flex-direction: row;
+        
+       
+     
+    }
+    .myImg{
+       display: none;
+    }
+
+    .abtm{
+        width: 150%;
+        height: 80vh;
+       display: flex;
+       flex-direction: column;
+        gap: 20px;
+        color: #402D12;
+        justify-content: center;
+        align-items: center;
+    }
+    .meetm{
+      font-size: 40px;
+    }
+    .metm{
+        font-size: 40px;
+
+    }
+
+    .email{
+    width: 400px;
+    }
+    .btn1{
+        width: 200px;
+    }
+    .inpparent{
+    width: 200px;
+    }
+    .tm{
+        font-size: 30px;
+    }
+    .etm{
+        font-size: 30px;
+
+    }
+    .tp5H{
+        font-size: 30px;
+
+    }
+    .i1{
+        font-size: 20px;
+        width: 300px;
+        font-weight: 100;
+    }
+    .singUp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    footer{
+        background-color: #E6D7C0;
+        display: grid;
+        width: 100%;
+        height:auto;
+        grid-template-rows:    auto auto auto;
+        grid-template-columns: 1fr;
+    }
+    .fot1par{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .fot2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .fot3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foodpics{
+      width: 200px;
+    }
+    .myCa h1{
+        font-size: 20px;
+    }
+    .cards1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        height: 200px;
+    }
+    .h1{
+        font-size: 10px;
+    }
+
+}
+@media screen and  (max-width:800px){
+    header{
+       flex-wrap: wrap      ;
+        width: 100%;
+        font-size: 10px;
+        display:flex ;
+        position: relative;
+        
+    }
+    main{
+        width: 100%;
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        
+        
+        
+          background-image: url(https://static.wixstatic.com/media/c837a6_12a1e75a69794715812e2d17d76d42dc~mv2.jpg/v1/fill/w_998,h_888,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_12a1e75a69794715812e2d17d76d42dc~mv2.jpg);
+    }
+    .img2{
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .in{
+        color: #402d12;
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-left:350px;
+       
+       width: 300px;
+    }
+    .f1{
+        width: 400px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .headd{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+        background-color: #F9A528;
+        justify-content:center;
+        padding: 0px 50px;
+        align-items: center;
+        gap: 20px;
+        color: #235B47;
+    }
+
+    .gl{
+        font-size: 30px;
+    }
+    .fr{
+        font-size: 30px;
+    }
+
+
+
+    .cards1{
+        display: flex ;
+        flex-direction: column;
+        gap: 30px;
+        color: #402D12;
+        
+    }
+    .food1{
+        height: 230vh;
+        width: 100%;
+        background-color: #F3F1E4;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 0px 50px;
+        align-items: center;
+        gap: 20px
+    }
+    .aboutMe{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        background-color: #E6D7C0;
+        flex-direction: row;
+        
+       
+     
+    }
+    .myImg{
+       display: none;
+    }
+
+    .abtm{
+        width: 150%;
+        height: 80vh;
+       display: flex;
+       flex-direction: column;
+        gap: 20px;
+        color: #402D12;
+        justify-content: center;
+        align-items: center;
+    }
+    .meetm{
+      font-size: 40px;
+    }
+    .metm{
+        font-size: 40px;
+
+    }
+    .paragr{
+        font-size: 20px;
+        width: 400px;
+
+    }
+    .text{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        margin-right: 40px;
+  
+    }
+    .singUp{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+    .sing{
+        flex-direction: column;
+        display: flex;
+    }
+    .inp{
+        flex-direction: column;
+        display: flex;
+
+    }
+    .email{
+        width: 300px;
+    }
+    .inpparent{
+       display: flex;
+       flex-direction: row;
+       gap: 10px;
+       
+    }
+    .innnn{
+        padding: 40px;
+    }
+    .weekl{
+     display: flex;
+    height: 160vh;
+     flex-direction: column;
+    }
+    .gozinayi{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://static.wixstatic.com/media/11062b_56a7be6c373e4b5e8795869305c78591~mv2.jpg/v1/fill/w_490,h_641,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_56a7be6c373e4b5e8795869305c78591~mv2.jpg);
+    }
+    .wek{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       justify-content: space-around;
+      
+    
+    }
+   
+  
+}
